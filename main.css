@@ -35,7 +35,11 @@
 .section5 {
     background-color: lightblue;
     height: 600px;
-    width: 100%; 
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
 }
 .section6 {
     background: teal;
@@ -78,8 +82,11 @@ img {
     font-weight: bold;
     width: 40%;
 }
-.image beside{
+.layout{
     display: inline-flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
 }
 .button2{
     background: #f4f4f4;
