@@ -32,49 +32,34 @@
     width: 100%;
     height: 600px;
 }
+.section5 {
+    background-color: lightblue;
+    height: 600px;
+    width: 100%; 
+}
+.section6 {
+    background: teal;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+/* BODY FORMATS */
 body {
     font-family: sans-serif;
     font-style: italic;
     color: black; 
 }
-.section5 {
-    
-    background-color: lightblue;
-    height: 700px;
-    width: 100%;
-    
-}
-.section6 {
-    
-    background: teal;
-    width: 100%;
-    height: 60vh;
-    text-align: center;
-    
-}
-/* BODY FORMATS */
-#id {
-color:blue;
-font-size:16px;
-font-family:Ariel;
-}
-#id2 {
-    
-    padding: 25px;
-}
-.boldtext {
-    
+.boldtext { 
 color: black;
 text-align: center;
-letter-spacing: 3px
-font-size: 72px;
-padding: 250px 0 250px 0;
-margin: 5px
-    
+letter-spacing: 1px;
+font-size: 40px;
+padding: 250px 0 0px 0;
+margin: 5px; 
 }
 img {
-    align-content: center;
-    width: 400px; height: 400px;
+    width: 400px;
+    height: 400px;
 }
 .button24 {
     height: 40px;
@@ -83,16 +68,25 @@ img {
     font-size: 20px;
     border-radius: 20px
 }
-.h1 {
-    
+.table1{
+    text-align: left;
     align-content: center;
-    color: orange;
-    letter-spacing: 3px;
-    font-size: 64px;
-    font-family:cursive;
-    text-align: center;
-    padding: 220px 0 0 0;  
+    padding: 20px;
+    border: 1px solid black;
+    margin: 130px;
+    font-size: large;
+    font-weight: bold;
+    width: 40%;
 }
+.image beside{
+    display: inline-flex;
+}
+.button2{
+    background: #f4f4f4;
+    color: darkturquoise;
+    transform-box: 10px;
+}
+/*NAVIGATION BAR*/
 li, a, button{
     font-family: sans-serif;
     font-weight: 500;
@@ -141,7 +135,14 @@ button:hover{
  background-color: rgba(0,139,168,0.8);   
 }
 /*Footer*/
-footer{
+.footer .footer-head{
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    
+}
+
+.footer .footer-bottom{
     background-color: black;
     color: white;
 }

@@ -1,42 +1,10 @@
-//my javascript animation code
-document.querySelector('li').innerHTML = '<h3>Hello</h3>'
-console.log()
+// WELCOME TO JAVASCRIPT
 
+console.dir(document);
+console.log(document.domain);
+console.log(document.URL);
+console.dir(window);
+console.log(document.doctype);
+console.log(document.head);
+console.log(document.all);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Animations
-hover
-on mouse click
-slide in 
-footer
