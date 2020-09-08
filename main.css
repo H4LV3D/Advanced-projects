@@ -93,6 +93,12 @@ img {
     color: darkturquoise;
     transform-box: 10px;
 }
+#items{
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+
+}
 /*NAVIGATION BAR*/
 li, a, button{
     font-family: sans-serif;
