@@ -18,3 +18,11 @@ var button = document.getElementById('btn').addEventListener
 ('click', function(){
     console.log(123);
 });
+function changeColor(element) {
+    var currentColor = element.style.backgroundColor;
+    if (currentColor == "red") {
+        element.style.backgroundColor = "green";
+    }else{
+        element.style.backgroundColor = "red";
+    }
+}
