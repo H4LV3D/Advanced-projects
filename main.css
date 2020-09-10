@@ -99,6 +99,20 @@ img {
     justify-content: space-between;
 
 }
+#animate{
+    animation: animate 4s forwards;
+    animation-delay: 2s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes animate {
+    0% {background-color: white; left: 0px;top: 0px;}
+    25% {background-color: red; left: 300px;top: 0px;}
+    50% {background-color: green; left: 300px;top: 300px;}
+    75% {background-color: blue; left: 0px;top: 300px;}
+    100% {background-color: white; left: 0px;top: 0px;}
+}
 /*NAVIGATION BAR*/
 li, a, button{
     font-family: sans-serif;
