@@ -159,7 +159,10 @@ button{
     transition: 0.3s ease 0s;     
 }
 button:hover{
- background-color: rgba(0,139,168,0.8);   
+    background-color: rgba(0, 65, 78, 0.8);
+    box-shadow: 10px;
+    border-radius: 25px;
+    color: black;   
 }
 /*Footer*/
 .footer .footer-head{

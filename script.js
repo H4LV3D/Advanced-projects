@@ -14,8 +14,7 @@
 // console.log(items);
 // console.log(items.parentNode);
 // items.parentNode.style.backgroundColor = '#f4f4f4';
-var button = document.getElementById('btn').addEventListener
-('click', function(){
+var button = document.getElementById('btn').addEventListener('click', function(){
     console.log(123);
 });
 function changeColor(element) {
@@ -26,3 +25,7 @@ function changeColor(element) {
         element.style.backgroundColor = "red";
     }
 }
+var click = document.getElementById('hello').addEventListener
+('click', function(){
+    console.log("Phone:08159433370");
+} );
