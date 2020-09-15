@@ -14,7 +14,8 @@
 // console.log(items);
 // console.log(items.parentNode);
 // items.parentNode.style.backgroundColor = '#f4f4f4';
-var button = document.getElementById('btn').addEventListener('click', function(){
+
+var button = document.getElementById('animate').addEventListener('click', function(){
     console.log(123);
 });
 function changeColor(element) {
@@ -27,5 +28,9 @@ function changeColor(element) {
 }
 var click = document.getElementById('hello').addEventListener
 ('click', function(){
-    console.log("Phone:08159433370");
+    alert("Phone:08159433370");
+    document.getElementsByClassName('button24').textContent = "Hello world";
 } );
+// function clicked(){
+//     alert("hello world");
+// }
