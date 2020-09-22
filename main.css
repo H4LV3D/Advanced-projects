@@ -1,7 +1,8 @@
 * {
    padding: 0px;
     margin: 0px;
-    border: 0px; 
+    border: 0px;
+    font-family: 'Raleway', sans-serif; 
 }
 /*BACKGROUNS */
 .section1 {
@@ -118,7 +119,6 @@ header{
     align-items: center;
     padding: 10px 10px;
     background-color: #24252A;
-    
 }
 
 h2.logo{
@@ -171,7 +171,6 @@ button:hover{
     display: flex;
     background-color: red;
     justify-content: space-between;
-    
 }
 
 .footer .footer-bottom{
