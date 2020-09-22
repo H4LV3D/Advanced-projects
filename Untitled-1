@@ -27,3 +27,55 @@ WORKS
         <p>i am officially done with learning html and css and i have been practising alot and i have dived into java script.By the end of the holiday i want to be very good in 6 programming languages which are (html, css, javascript, python, C, C++ and c#) and a little of java though. i reallywant to be a front end developer because i am really organized person and i love arrangement or packaging (what most people call it). the arragement the feeel, the looks, the packaging of any website is very important in the sense that it is the product before the real product, that is what the customer sees and feels online before approaching any human for further business. </p> 
     
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div></div>
+    <div id="left">
+    <p>heyyy what's up? love the article and i know you sure do, pls like and subscribe for more.</p>
+     <ul id="items">
+        <li class="items">item 1</li>
+        <li class="items">item 2</li>
+        <li class="items">item 3</li>
+        <li class="items">item 4</li>
+     </ul>
+    </div>
+     <div id="right">
+     <button id="animate">Click Me</button>
+    </div>
+</div>
+<div class="section6">
+    <a href="www.lifefountmedical.com"><button>LFMC</button></a>
+    <br>
+    <img src="plateau-4625455.jpg">
+    <img src="amid%2022.jpg">
+    <br>
