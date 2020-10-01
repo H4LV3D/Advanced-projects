@@ -2,7 +2,7 @@
    padding: 0px;
     margin: 0px;
     border: 0px;
-    font-family: 'Raleway', sans-serif; 
+    /*font-family: 'Raleway', sans-serif;*/ 
 }
 /*BACKGROUNS */
 .section1 {
@@ -61,6 +61,10 @@ body {
     font-size: 40px;
     padding: 250px 0 0px 0;
     margin: 5px; 
+}
+h4 em{
+    top: 200px;
+    left: 10%;
 }
 img {
     width: 400px;
@@ -151,7 +155,7 @@ h2.logo:hover{
 .menu li a:hover{
     color: darkcyan;
 }
-button{
+#button1{
     margin-left: 20px;
     padding: 9px 25px;
     background-color: rgba(0,139,168,1);
@@ -160,7 +164,7 @@ button{
     cursor: pointer;
     transition: 0.3s ease 0s;     
 }
-button:hover{
+#button1:hover{
     background-color: rgba(0, 65, 78, 0.8);
     box-shadow: 10px;
     border-radius: 25px;
