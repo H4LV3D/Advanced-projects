@@ -4,111 +4,6 @@
     border: 0px;
     /*font-family: 'Raleway', sans-serif;*/ 
 }
-/*BACKGROUNS */
-.section1 {
-    
-    height: 100vh;
-    background-image: url(DSC_0040.jpg) ;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.section2{
-    
-    background-image: url(plateau-4625455.jpg) ;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 600px;
-}
-.section3{
-    
-    background-image: url(heyyy.jpg) ;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: 600px;
-}
-.section4 {
-    
-   background-image: url(Love%20Themed%20Christian%20Wallpapers.png) fixed no-repeat center;
-    width: 100%;
-    height: 600px;
-}
-.section5 {
-    background-color: lightblue;
-    height: 600px;
-    width: 100%;
-    display: inline-flex;
-    justify-content: space-between;
-    align-content: space-between;
-    align-items: center;
-}
-.section6 {
-    background: teal;
-    width: 100%;
-    height: 600px;
-    text-align: center;
-}
-/* BODY FORMATS */
-body {
-    font-family: sans-serif;
-    font-style: italic;
-    color: black; 
-}
-.boldtext { 
-    color: black;
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 40px;
-    padding: 250px 0 0px 0;
-    margin: 5px; 
-}
-h4 em{
-    top: 200px;
-    left: 10%;
-}
-img {
-    width: 400px;
-    height: 400px;
-}
-.button24 {
-    height: 40px;
-    width: 150px;
-    background-color: red;
-    font-size: 20px;
-    border-radius: 20px
-    left: 0px;  
-}
-.layout{
-    display: inline-flex;
-    justify-content: space-between;
-    align-content: space-between;
-    align-items: center;
-}
-.button2{
-    background: #f4f4f4;
-    color: darkturquoise;
-    transform-box: 10px;
-}
-#items{
-    padding: 20px;
-    margin: 20px;
-    justify-content: space-between;
-
-}
-#animate{
-    animation: animate 4s forwards;
-    animation-delay: 2s;
-    animation-direction: reverse;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-@keyframes animate {
-    0% {background-color: white; left: 0px;top: 0px;}
-    25% {background-color: red; left: 300px;top: 0px;}
-    50% {background-color: green; left: 300px;top: 300px;}
-    75% {background-color: blue; left: 0px;top: 300px;}
-    100% {background-color: white; left: 0px;top: 0px;}
-}
 /*NAVIGATION BAR*/
 li, a, button{
     font-family: sans-serif;
@@ -170,14 +65,11 @@ h2.logo:hover{
     border-radius: 25px;
     color: black;   
 }
-/*Footer*/
-.footer .footer-head{
-    display: flex;
-    background-color: red;
-    justify-content: space-between;
-}
-
-.footer .footer-bottom{
-    background-color: black;
-    color: white;
+/*BACKGROUNS */
+.section2{
+    
+    background-image: url(plateau-4625455.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
 }
