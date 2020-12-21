@@ -65,11 +65,9 @@ h2.logo:hover{
     border-radius: 25px;
     color: black;   
 }
-/*BACKGROUNS */
-.section2{
+/* FOOTER HERE*/
+.footer-head{
+    justify-content: space-between;
+    align-content: space-between;
     
-    background-image: url(plateau-4625455.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    height: 600px;
 }
